@@ -1,13 +1,6 @@
 # Open Flood
 
-A flood fill game for Android by GunshipPenguin (Rhys RE).
-
-<a href="https://play.google.com/store/apps/details?id=com.gunshippenguin.openflood">
-    <img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/apps/en-play-badge.png" height="60"/>
-</a>
-<a href="https://f-droid.org/repository/browse/?fdid=com.gunshippenguin.openflood">
-    <img alt="Get Open Flood on F-Droid" src="https://f-droid.org/wiki/images/c/c4/F-Droid-button_available-on.png" height="60"/>
-</a>
+A flood fill game for iOS by MechDome. (Originally designed by GunshipPenguin (Rhys RE))
 
 ## Gameplay
 
