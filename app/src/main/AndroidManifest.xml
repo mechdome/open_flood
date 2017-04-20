@@ -21,6 +21,7 @@
         <activity android:name="com.gunshippenguin.openflood.InfoActivity"
             android:screenOrientation="portrait">
         </activity>
+        <meta-data android:name="md_remove_ads" android:value="com.gunshippenguin.openflood.MechDomeAd" />
     </application>
 
 </manifest>

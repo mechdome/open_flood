@@ -17,6 +17,8 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.mechdome.aboutmechdome.AboutMechDomeActivity;
+
 /**
  * Activity allowing the user to play the actual game.
  */
@@ -89,6 +91,15 @@ public class GameActivity extends AppCompatActivity
                 SeedDialogFragment seedDialogFragment = new SeedDialogFragment();
                 seedDialogFragment.show(getSupportFragmentManager(), "SeedDialog");
                 return true;
+            }
+        });
+
+        ImageView mdButton = (ImageView) findViewById(R.id.aboutMechdome);
+        mdButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent launchAboutMDIntent = new Intent(GameActivity.this, AboutMechDomeActivity.class);
+                startActivity(launchAboutMDIntent);
             }
         });
 
